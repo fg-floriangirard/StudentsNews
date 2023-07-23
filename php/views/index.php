@@ -18,7 +18,7 @@ include("../datas/articles.php");
         <div class="post__meta">   
             <img class="post__author-icon__index" src="<?= $value["image"] ?>" alt="">
             <strong class="post__author"><?= $value["author"] ?></strong>         
-        <time datetime="<?= $value["date"] ?>">le <?= date('d F Y', strtotime($value["date"])) ?></time>
+        <time datetime="<?= $value["date"] ?>">on <?= date('F d Y', strtotime($value["date"])) ?></time>
     </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pacers, perferendis, saepe.</p>
         <a href="./article.php?number=<?= $key ?>" class="post__link__index">Continue reading</a>
