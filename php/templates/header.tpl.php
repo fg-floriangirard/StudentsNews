@@ -2,9 +2,9 @@
 including the main title, subtitle, introductory paragraph, and navigation menu. -->
 <?php
 $nav = [
-    "Plan du site" => "../views/plan_de_site.php",
+    "Site Plan" => "../views/plan_de_site.php",
     "Contact" => "../views/contact.php",
-    "Mentions légales" => "../views/mentions_legales.php"
+    "Legal Notice" => "../views/mentions_legales.php"
 ];
 ?>
 <head>
