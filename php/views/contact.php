@@ -8,7 +8,7 @@ include("../templates/contact_header.tpl.php");
     <h2 class="right__title">Contact us</h2>
     <div class="posts">
         <div class="post post--solo form-container">
-            <form action="" method="get">
+            <form action="./retrieve.php" method="get">
                 <!-- Form fields -->
                 <div>
                     <label for="lastname">Lastname:</label>
