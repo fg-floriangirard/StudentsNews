@@ -3,7 +3,7 @@
 include("../templates/header.tpl.php");
 ?>
 <main class="right">
-    <h2 class="right__title">Site Plan</h2>
+    <h2 class="right__title">Site Map</h2>
     <div class="posts">
         <div class="post post--solo">
             <p class="single">

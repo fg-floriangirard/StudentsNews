@@ -2,14 +2,14 @@
 including the main title, subtitle, introductory paragraph, and navigation menu. -->
 <?php
 $nav = [
-    "Site Plan" => "../views/plan_de_site.php",
+    "Site Map" => "../views/site_map.php",
     "Contact" => "../views/contact.php",
-    "Legal Notice" => "../views/mentions_legales.php"
+    "Legal Notice" => "../views/legal_notice.php"
 ];
 ?>
 <head>
     <meta charset="UTF-8">
-    <title>Student News</title>
+    <title>StudentsNews</title>
     <link rel="stylesheet" href="../../css/reset.css">
     <link rel="stylesheet" href="../../css/style.css">
 </head>
