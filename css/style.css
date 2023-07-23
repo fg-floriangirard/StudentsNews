@@ -132,17 +132,28 @@
 
 .post__author-icon {
   width: 1.4em;
+  margin-left: 3rem;
+}
+
+.post__author-icon__index {
+  width: 1.4em;
 }
 
 .post__author {
   color: black;
   font-weight: 700;
+  
 }
 
 .post__link {
   font-weight: bold;
   text-decoration: underline;
   margin: 3rem;
+}
+
+.post__link__index {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .post__link:hover {
@@ -152,6 +163,21 @@
 /* MODIFIERS ON CATEGORIES */
 
 .post__category {
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 2px;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding: 3px 6px;
+  background-color: darkgrey;
+  margin-bottom: 0.5em;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+
+.post__category__index {
   display: inline-block;
   text-transform: uppercase;
   color: white;
